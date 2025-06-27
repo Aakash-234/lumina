@@ -4,7 +4,7 @@ const appData = {
         {
             name: "Ethereal Insights",
             color: "#E8F4FD",
-            description: "Podcasts & Audio Content",
+            description: "The AI Race",
             icon: "🎧",
             articles: [
                 "The Silent Revolution: How Whispering Changed Communication",
