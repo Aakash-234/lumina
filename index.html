@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina Chronicles - Crystal Universe of Knowledge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="crystal-loader">
+            <div class="crystal-core"></div>
+            <div class="loading-particles"></div>
+            <div class="loading-text">Entering the Crystal Universe...</div>
+        </div>
+    </div>
+
+    <!-- Article Ticker -->
+    <div class="article-ticker">
+        <div class="ticker-content" id="ticker-content">
+            <!-- Dynamic content will be populated by JavaScript -->
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content" class="main-content hidden">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="cosmic-background">
+                <div class="floating-particles" id="floating-particles"></div>
+                <div class="energy-streams"></div>
+            </div>
+            
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-word" data-delay="0">Lumina</span>
+                    <span class="title-word" data-delay="500">Chronicles</span>
+                </h1>
+                <p class="hero-subtitle">Navigate the Crystal Universe of Knowledge</p>
+                <div class="hero-crystals" id="hero-crystals">
+                    <!-- Dynamic crystal grid will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Crystal Catalog Section -->
+        <section class="crystal-catalog" id="crystal-catalog">
+            <div class="catalog-header">
+                <h2 class="catalog-title">Explore the Crystal Realms</h2>
+                <div class="catalog-particles"></div>
+            </div>
+            <div class="crystal-grid" id="crystal-grid">
+                <!-- Dynamic content populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Section Views -->
+        <section class="section-view hidden" id="section-view">
+            <div class="section-header">
+                <button class="back-button" id="back-button">← Return to Universe</button>
+                <div class="breadcrumb-crystals" id="breadcrumb-crystals"></div>
+            </div>
+            <div class="section-content" id="section-content">
+                <!-- Dynamic section content -->
+            </div>
+        </section>
+
+        <!-- Article View -->
+        <article class="article-view hidden" id="article-view">
+            <div class="article-header">
+                <button class="back-button" id="article-back-button">← Return to Section</button>
+                <div class="article-breadcrumb" id="article-breadcrumb"></div>
+            </div>
+            <div class="article-chamber" id="article-chamber">
+                <div class="article-crystal-frame">
+                    <div class="article-content" id="article-content">
+                        <!-- Dynamic article content -->
+                    </div>
+                </div>
+                <div class="related-crystals" id="related-crystals">
+                    <h3>Related Crystals</h3>
+                    <div class="related-grid" id="related-grid">
+                        <!-- Related articles as mini crystals -->
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <!-- Interactive Background Elements -->
+    <div class="cursor-trail" id="cursor-trail"></div>
+    <div class="ambient-particles" id="ambient-particles"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
